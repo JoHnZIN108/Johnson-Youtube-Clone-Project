@@ -1,2 +1,2 @@
 # Johnson-Youtube-Clone-Project
- Cloning Youtube with HTML and CSS
+In this project, using HTML & CSS, I cloned the Youtube.com Home page
