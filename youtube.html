@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Johnson Youtube Clone</title>
+
+    <!--This is to add the Google Roboto font to our code-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--Importing the styles using link-->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/shorts.css">
+
+
+
+</head>
+
+
+
+<body>
+    <div class="header">
+        <div class="left-section">
+
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="hamburger-menu">
+            <a href="https://www.youtube.com/">
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="youtube-logo">
+            </a>
+        </div>
+
+        <div class="mid-section">
+            <input class="search-bar" type="text" placeholder="Search">
+
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="search">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class=upload-icon-container>
+                <img class="upload-icon" src="icons/upload.svg" alt="Upload icon">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <div class="notification-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="notification bell">
+                <div class="notification-count">9+</div>
+            </div>
+            <a
+                href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&ifkv=Ab5oB3phBFyytqfGUDGHzHmUya0ZD36XrnT_TWRbOYHnyG1Y8SYBRMXEHSfoqYeOywPEX6gstbcN&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <img class="current-user-picture" src="channel-profile-photo/accnt_photo.jpg" alt="Account Photo">
+            </a>
+            </div>
+
+    </div>
+
+    <div class="header-2">
+        <button class="genre">
+            All
+        </button>
+        <button class="genre">
+            Music
+        </button>
+        <button class="genre">
+            Gaming
+        </button>
+        <button class="genre">
+            Web Development
+        </button>
+        <button class="genre">
+            Podcast
+        </button>
+        <button class="genre">
+            Live
+        </button>
+        <button class="genre">
+            News
+        </button>
+        <button class="genre">
+            Lo-fi
+        </button>
+        <button class="genre">
+            Afro-beat
+        </button>
+        <button class="genre">
+            AI
+        </button>
+        <button class="genre">
+            Mixes
+        </button>
+        <button class="genre">
+            Cars
+        </button>
+        <button class="genre">
+            Recently uploaded
+        </button>
+        <button class="genre">
+            Watched
+        </button>
+        <button class="genre">
+            New to you
+        </button>
+        <button class="genre">
+            Travel
+        </button>
+        <button class="genre">
+            Excerise
+        </button>
+        <button class="genre">
+            Politics
+        </button>
+
+    </div>
+
+
+
+    <!--SIDE BAR-->
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="home icon">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/Shorts.svg" alt="shorts icon">
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="subscription icon">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/YOU.svg" alt="YOU icon">
+            <div>You</div>
+        </div>
+    </nav>
+
+    <!--Main body-->
+    <div class="video-grid">
+        <a href="https://www.youtube.com/watch?v=RVVfJVj5z8s&t=235s">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/jeff.webp" alt="Image of jeff">
+                    <div class="vid-time">1:53:17</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/Frontline.jpg"
+                            alt="Frontline channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">Amazon Empire: The Rise and Reign of Jeff Bezos (full documentary) |
+                            FRONTLINE
+                        </p>
+                        <p class="vid-author">FRONTLINE PBS | Official</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">39M views &#183; 4 years ago</p>
+                        <!--The three dots-->
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=Kbk9BiPhm7o&t=11s">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/Elon.webp" alt="Image of Elon">
+                    <div class="vid-time">1:37:35</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/Lex.jpg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Elon Musk: Neuralink and the Future of Humanity | Lex Fridman Podcast #438 </p>
+                        <p class="vid-author">Lex Fridman</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">3M views &#183; 2 weeks ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=pJ5dLwpG0_I&t=3s">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/cs_large.webp" alt="Thumbnail">
+                    <div class="vid-time">16:09</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/cs-large.jpg" alt="Frontline channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">Is AI Replacing Software Engineering?</p>
+                        <p class="vid-author">CS Dojo</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">19K subscribers &#183; 2 days ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/mark.webp" alt="Image of Marques">
+                    <div class="vid-time">14:21</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/channel-1.jpeg" alt="Profile Picture">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Talking Tech and AI with Google CEO Sundar Pichai! </p>
+                        <p class="vid-author">Marques Brownlee</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">4.2M views · 3 years ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=VbeM8Lf7s5A">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/Apple.webp" alt="Thumbnail">
+                    <div class="vid-time">18:12</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/neo.jpg" alt="channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">The Genius Design of Apple Park</p>
+                        <p class="vid-author">neo</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">8.6M views &#183; 1 years ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=JqwHnwVL2gI">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/cat.webp" alt="Thumbnail">
+                    <div class="vid-time">11:54:58</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/unnamed.jpg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            lofi hip hop radio ~ beats to relax/study 💖✍️📚 Lofi Everyday To Put You In A Better Mood
+                        </p>
+                        <p class="vid-author">Little Soul</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">15k views &#183; Streamed 2 hours ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=WAs_h1sYiLg&pp=ygUMbW92aWUgc2hvcnRz">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/Ben10.webp" alt="Thumbnail">
+                    <div class="vid-time">2:11</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/ben.jpg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            BEN 10: Live Action Movie – Teaser Trailer – Netflix Originals</p>
+                        <p class="vid-author">Little Soul</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">1.4M views &#183; 2 weeks ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/Mrbeasr-red-circle.webp" alt="Thumbnail">
+                    <div class="vid-time">19:59</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/MrBeast.jpeg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="vid-author">MrBeast</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">298M views &#183; 4 years ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+
+        <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/plane.webp" alt="Thumbnail">
+                    <div class="vid-time">10:14</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/plane.jpeg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Why Planes Don't Fly Over Tibet</p>
+                        <p class="vid-author">RealLifeLore</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">8.4M views &#183; 3 years ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/Super-human-strenght.webp" alt="Thumbnail">
+                    <div class="vid-time">13:18</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/Super-human-strength.jpeg"
+                            alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            The SECRET to Super Human STRENGTH</p>
+                        <p class="vid-author">Little Soul</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">24M views &#183; 6 years ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=IscGtF_A14A">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/messi.webp" alt="Thumbnail">
+                    <div class="vid-time">1:45:00</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/messi.jpg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Lionel Messi ● All 800 Goals in Career ● With Commentaries</p>
+                        <p class="vid-author">Messi TheBoss</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">16M views &#183; 1 year ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=6SpNMNQAVnI">
+            <div class="vid-preview">
+
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="photos/airforce.webp" alt="Thumbnail">
+                    <div class="vid-time">30:12</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-pic" src="channel-profile-photo/airforce.jpg" alt="Lex channel photo">
+                    </div>
+
+                    <div class="vid-info">
+                        <p class="vid-title">
+                            Surviving A Week In Air Force Special Operations</p>
+                        <p class="vid-author">Sam Eckholm</p>
+                        <img class="verified-icon" src="icons/verified.svg" alt="verified icon">
+                        <p class="vid-stats">2.1M views &#183; 6 months ago</p>
+                        <div class="dots">
+                            <img src="icons/video_menu.svg" alt="video-menu">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+    <!--YOUTUBE SHORTS-->
+    <div class="shorts2-icon">
+        <img src="icons/shorts-2.svg" alt="Shorts-image">
+        <pre>  Shorts</pre>
+    </div>
+    <div class="short-grid">
+        <a href="https://www.youtube.com/shorts/jXtXTalinJs">
+            <div class="short-container">
+                <img src="photos/anatoly.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Anatoly 🤯 #anatoly #gym #fitness</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">27M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="hhttps://www.youtube.com/shorts/zOIc46VC6Dc">
+            <div class="short-container">
+                <img src="photos/johnwick.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">When John Wick doesn't have a gun he builds one</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">8.3M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/mGtrEL9t4ZI">
+            <div class="short-container">
+                <img src="photos/dance.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Tshwala Bam with @khabylame 😂🔥</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">870K views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/w9hjNTdvP5s">
+            <div class="short-container">
+                <img src="photos/nail.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Stepping On A Rusty Nail 😨</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">1.5M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/ia7FybDOTrE">
+            <div class="short-container">
+                <img src="photos/shaq.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">14-Year-Old Giant Dunks on Shaq and Wins $1 Million! #shorts #fitness</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">1.7M views</p>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.youtube.com/shorts/KN7kbp-KuVU">
+            <div class="short-container">
+                <img src="photos/blackwidow.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">When we use 60% of our brain | Telekinesis</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">31M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/f7_Pej6ZoPM">
+            <div class="short-container">
+                <img src="photos/eagle.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Eagle #animals #birds</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">4.1M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/WZss9dwlAMQ">
+            <div class="short-container">
+                <img src="photos/white-face.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">the traffic light was green I swear🥲#learnfromkhaby #comedy</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">3.1M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/T8I165Qxeo8">
+            <div class="short-container">
+                <img src="photos/MrBeast-money.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Sprinting with More and More Money</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">237M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/T8I165Qxeo8">
+            <div class="short-container">
+                <img src="photos/Lebron.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">LeBron was ready 😤 #shorts</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">78M views</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/shorts/uWrNjooblQE">
+            <div class="short-container">
+                <img src="photos/sprinting.webp" alt="short-photo">
+                <div class="short-title">
+                    <p class="vid-title">Sprinting with heavier and heavier weights</p>
+                    <div class="short-menu-dots">
+                        <img src="icons/video_menu.svg" alt="video-menu">
+                    </div>
+                    <p class="vid-stats">127M views</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>

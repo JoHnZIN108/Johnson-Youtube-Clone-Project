@@ -1,0 +1,140 @@
+
+.thumbnail {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-pic {
+    width: 36px;
+    border-radius: 50px;
+}
+
+.vid-preview{
+    cursor: pointer;
+}
+
+.vid-title {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 6px;
+    width: 92%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.thumbnail-row {
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+.vid-info{
+    position:relative;
+}
+.dots{
+    display: flex;
+    position:absolute;
+    right: -15px;
+    top: -6px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition:background-color .3s ease-in-out;
+}
+
+.dots:active{
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(205, 225, 205);
+}
+.vid-author,
+.vid-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+
+
+.verified-icon{
+    height: 14px;
+    margin-bottom: -2px;
+}
+
+.vid-author {
+    display: inline;
+    margin-bottom: 4px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+/* For screens smaller than 680px */
+@media (max-width: 679px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* For screens 680px and up */
+@media (min-width: 680px) and (max-width: 1079px) {
+    .video-grid {
+        grid-template-columns: 1fr; /* Modify as needed for this range */
+    }
+}
+
+/* For screens 1080px and up */
+@media (min-width: 1080px) and (max-width: 1429px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* For screens 1430px and up */
+@media (min-width: 1430px) and (max-width: 1759px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* For screens 1760px and up */
+@media (min-width: 1760px) and (max-width: 1999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* For screens 2000px and up */
+@media (min-width: 2000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.vid-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 9px;
+    bottom: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*For Shorts*/
+

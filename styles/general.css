@@ -1,0 +1,18 @@
+p {
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+    padding-top: 135px;
+    padding-left: 96px;
+    padding-right: 25px;
+    font-family: Roboto,Arial;
+    padding-bottom: 3000px;
+
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Ensures text inside the container retains its original color */
+}
